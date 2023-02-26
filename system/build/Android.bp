@@ -56,9 +56,6 @@ fluoride_defaults {
             ],
         }
     },
-    lto: {
-        never: true,
-    },
 }
 
 // default to be used only on platform libs that can rely on shared libchrome
@@ -257,9 +254,6 @@ fluoride_defaults {
             ],
         },
     },
-    lto: {
-        never: true,
-    },
 }
 
 fluoride_defaults {
@@ -328,9 +322,6 @@ fluoride_defaults {
                 misc_undefined: ["bounds"],
             },
         },
-    },
-    lto: {
-        never: true,
     },
 }
 

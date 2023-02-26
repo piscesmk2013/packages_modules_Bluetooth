@@ -33,9 +33,6 @@ cc_defaults {
     ],
     header_libs: ["libbluetooth_headers"],
     cflags: ["-DBUILDCFG"],
-    lto: {
-        never: true,
-    },
 }
 
 filegroup {
